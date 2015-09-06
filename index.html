@@ -2,15 +2,160 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>#banterbonus</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
   <style>
   body {
-    background-image: url('2015-09-04.gif');
-    background-repeat: repeat;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+  }
+  .navbar {
+    border-radius: 0;
+  }
+  .h-banterbonus {
+    color: #167D36;
+  }
+  .parallax-window {
+    min-height: 400px;
+    background: transparent;
+  }
+  .huge {
+    position: relative;
+  }
+  h1.banterbonus {
+    position: absolute;
+    top: 48%;
+    left: 37%;
+    margin: 0;
+    color: #ececec;
+    text-shadow: 0px 0px 10px;
+    font-size: 50px;
+  }
+  .scrollme {
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 0.7em);
+    color: #ececec;
+    font-size: 20px;
+    border: 1px solid #ececec;
+    border-radius: 100%;
+    padding: 4px 4px 0px 6px;
+  }
+  .marginate {
+    margin: 3em auto;
+  }
+  p.lead {
+    font-weight: 400;
+  }
+  .nm {
+    margin: 0 !important;
+  }
+  .site-footer {
+    background-color: #0D3018;
+    color: #ececec;
+    padding: 3em 0;
+  }
+  .site-footer .h-banterbonus {
+    color: #2F7D48;
+  }
+  a, a:visited, a:link {
+    color: #C72A25;
+  }
+  a:hover, a:active, a:focus {
+    color: #7D1708;
+    text-decoration: none;
+    outline: none;
   }
   </style>
 </head>
 <body>
+  <div class="huge parallax-window" data-parallax="scroll" data-image-src="./20150904_200840.jpg">
+    <h1 class="banterbonus"><span class="h-banterbonus">#</span>banterbonus</h1>
+    <div class="scrollme"><i class="glyphicon glyphicon-chevron-down"></i></div>
+  </div>
 
+  <div id="vision" class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h2>the <span class="h-banterbonus">#</span>banterbonus vision</h2>
+        <p class="lead">We believe that real conversations between real people are the best.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="huge parallax-window" data-parallax="scroll" data-image-src="plate.jpg"></div>
+
+  <div id="what" class="container marginate">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <p class="lead nm">It takes big ideas to monetise conversations. At <span class="h-banterbonus">#</span>banterbonus, we have five before breakfast.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="huge parallax-window" data-parallax="scroll" data-image-src="rocher.jpg"></div>
+
+  <div id="people" class="container">
+    <div class="row">
+      <h2 class="text-center">the <span class="h-banterbonus">#</span>banterbonus people</h2>
+      <p class="text-center lead">Our team is up to any challenge.</p>
+      <div class="col-xs-12 col-md-4">
+        <div class="thumbnail">
+          <img src="hendo.jpg" alt="The CEO of #banterbonus">
+          <div class="caption">The CEO of <span class="h-banterbonus">#</span>banterbonus</div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="thumbnail">
+          <img src="xfacp.jpg" alt="The CEO of #banterbonus">
+          <div class="caption">The Marketing Director of <span class="h-banterbonus">#</span>banterbonus</div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="thumbnail">
+          <img src="peter.jpg" alt="The CEO of #banterbonus">
+          <div class="caption">The CTO of <span class="h-banterbonus">#</span>banterbonus</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="huge parallax-window" data-parallax="scroll" data-image-src="pedibus.jpg"></div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <ul class="list-unstyled">
+            <li><a href="about.html">About</a></li>
+            <li><a href="http://inception.davepedu.com/noflash.php">The Technology</a></li>
+            <li><a href="https://www.youtube.com/watch?v=FMauGc2oy7w">Investors</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <p>Obligatory social links:</p>
+          <ul class="list-unstyled">
+            <li><a href="https://plus.google.com/u/0/communities/113309370161575824076">Google+</a></li>
+            <li><a href="http://shouldideployalinkamp.com/">Snapshat</a></li>
+          </ul>
+          <p>&copy; <span class="h-banterbonus">#</span>banterbonus</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="parallax.min.js"></script>
+  <script>
+    $(function() {
+      $('.huge').height(Math.max(document.documentElement.clientHeight, window.innerHeight || 0))
+    })
+  </script>
 </body>
 </html>
